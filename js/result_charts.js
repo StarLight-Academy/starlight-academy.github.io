@@ -2,7 +2,7 @@ $(document).ready(function() {
   data_strength = {
     labels: ['2012', '2013', '2014', '2015', '2016', '2017'],
     datasets: [{
-      data: [2, 2, 5, 11, 14, 36],
+      data: [2, 2, 5, 11, 14, 40],
       backgroundColor: 'rgba(244, 65, 65, 0.7)',
       pointBackgroundColor: 'rgb(255, 0, 0)',
       pointRadius: 4
