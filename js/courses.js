@@ -13,15 +13,15 @@ $(document).ready(function() {
       xobj.send(null);
    }
 
-   function convertToHtml(json_obj, choice){
+   function convertToHtml(json_obj, choice, head){
      var str = ["<div class='row'><div class='col-md-8 col-md-offset-1'><h2>" + json_obj.head + "</h2></div></div>", "<div class='row'>"];
      if(choice == 1){
 
       $.each(json_obj.course_list, function(index, val){
         if(index % 2 == 0){
-          str.push("<div class='col-md-4 col-xs-4 col-xs-offset-1 course'><h3 class='course-title text-center'>" + val + "</h3><img src=" + json_obj.details[json_obj.keys[index]] +" class='img-responsive'></div>");
+          str.push("<div class='col-md-4 col-xs-4 col-xs-offset-1 course' id='contactbtn' data-toggle='modal' data-target='#courseModal' data-key='"+ json_obj.keys[index] +"' data-head='" + head + "' data-title='" + val + "'><h3 class='course-title text-center'>" + val + "</h3><img src='" + json_obj.details[json_obj.keys[index]].Img +"' class='img-responsive'></div>");
         }else {
-          str.push("<div class='col-md-4 col-xs-4 col-xs-offset-2 course'><h3 class='course-title text-center'>" + val + "</h3><img src=" + json_obj.details[json_obj.keys[index]] +" class='img-responsive'></div>");
+          str.push("<div class='col-md-4 col-xs-4 col-xs-offset-2 course' id='contactbtn' data-toggle='modal' data-target='#courseModal' data-key='"+ json_obj.keys[index] +"' data-head='" + head + "' data-title='" + val + "'><h3 class='course-title text-center'>" + val + "</h3><img src='" + json_obj.details[json_obj.keys[index]].Img +"' class='img-responsive'></div>");
         }
       });
     }else{
@@ -29,20 +29,20 @@ $(document).ready(function() {
         switch (index) {
           case 1:
           case 5:
-            str.push("<div class='col-md-2 col-xs-4 col-xs-offset-2 col-md-offset-2 course'><h3 class='course-title text-center'>" + val + "</h3><img src=" + json_obj.details[json_obj.keys[index]] +" class='img-responsive'></div>");
+            str.push("<div class='col-md-2 col-xs-4 col-xs-offset-2 col-md-offset-2 course' id='contactbtn' data-toggle='modal' data-target='#courseModal' data-key='"+ json_obj.keys[index] +"' data-head='" + head + "' data-title='" + val + "'><h3 class='course-title text-center'>" + val + "</h3><img src='" + json_obj.details[json_obj.keys[index]].Img +"' class='img-responsive'></div>");
 
             break;
           case 0:
-            str.push("<div class='col-md-2 col-xs-4 col-xs-offset-1 course'><h3 class='course-title text-center'>" + val + "</h3><img src=" + json_obj.details[json_obj.keys[index]] +" class='img-responsive'></div>");
+            str.push("<div class='col-md-2 col-xs-4 col-xs-offset-1 course' id='contactbtn' data-toggle='modal' data-target='#courseModal' data-key='"+ json_obj.keys[index] +"' data-head='" + head + "' data-title='" + val + "'><h3 class='course-title text-center'>" + val + "</h3><img src='" + json_obj.details[json_obj.keys[index]].Img +"' class='img-responsive'></div>");
 
             break;
           case 2:
           case 4:
-            str.push("<div class='col-md-2 col-xs-4 col-xs-offset-1 col-md-offset-2 course'><h3 class='course-title text-center'>" + val + "</h3><img src=" + json_obj.details[json_obj.keys[index]] +" class='img-responsive'></div>");
+            str.push("<div class='col-md-2 col-xs-4 col-xs-offset-1 col-md-offset-2 course' id='contactbtn' data-toggle='modal' data-target='#courseModal' data-key='"+ json_obj.keys[index] +"' data-head='" + head + "' data-title='" + val + "'><h3 class='course-title text-center'>" + val + "</h3><img src='" + json_obj.details[json_obj.keys[index]].Img +"' class='img-responsive'></div>");
 
             break;
           case 3:
-            str.push("<div class='col-md-2 col-xs-4 col-xs-offset-2 col-md-offset-1 course'><h3 class='course-title text-center'>" + val + "</h3><img src=" + json_obj.details[json_obj.keys[index]] +" class='img-responsive'></div>");
+            str.push("<div class='col-md-2 col-xs-4 col-xs-offset-2 col-md-offset-1 course' id='contactbtn' data-toggle='modal' data-target='#courseModal' data-key='"+ json_obj.keys[index] +"' data-head='" + head + "' data-title='" + val + "'><h3 class='course-title text-center'>" + val + "</h3><img src='" + json_obj.details[json_obj.keys[index]].Img +"' class='img-responsive'></div>");
 
             break;
           default:
@@ -59,12 +59,43 @@ $(document).ready(function() {
     // Parse JSON string into object
       var actual_JSON = JSON.parse(response);
 
-      $('#nine_ten').html(convertToHtml(actual_JSON.nine_ten, 1));
-      $('#eleven_twelve').html(convertToHtml(actual_JSON.eleven_twelve, 2));
-      $('#cs_courses').html(convertToHtml(actual_JSON.cs_courses, 2));
+      console.log(actual_JSON.keys);
+      count = 1;
+      for(x in actual_JSON){
+          var id = '#' + x
+          $(id).html(convertToHtml(actual_JSON[x], count, x));
+          count += 1;
+      }
+      //$('#eleven_twelve').html(convertToHtml(actual_JSON.eleven_twelve, 2));
+      //$('#pg_courses').html(convertToHtml(actual_JSON.pg_courses, 2));
    });
   }
 
   init();
+
+  $('#courseModal').on('show.bs.modal', function(event){
+     var div = $(event.relatedTarget);
+     var head = div.data('head');
+     var title = div.data('title');
+     var key = div.data('key');
+     var modal = $(this);
+     var img = "";
+     var about = "";
+     modal.find('.modal-title').text(title);
+     console.log(head);
+     console.log(title);
+     console.log(key);
+
+     loadJSON(function(response){
+         var actual_JSON = JSON.parse(response);
+         console.log(actual_JSON[head]["details"]);
+
+         img = "<img src='" + actual_JSON[head]["details"][key].Img + "' class='img-responsive'>";
+         about = "<p>" + actual_JSON[head]["details"][key].About + "</p>"
+         modal.find('#imgDiv').html(img);
+         modal.find('#aboutDiv').html(about);
+    });
+
+  });
 
 });

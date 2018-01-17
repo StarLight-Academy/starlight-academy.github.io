@@ -1,41 +1,73 @@
 {
 	"nine_ten": {
 		"head": "For Little Stars (IXth/Xth)",
-		"course_list": ["English", "Science", "Mathematics", "Social Studies"],
-		"keys": ["en", "sc", "mat", "sst"],
+		"course_list": ["Science", "Mathematics"],
+		"keys": ["sc", "mat"],
 		"details": {
-			"en": "https://lh3.googleusercontent.com/KffLUfvxDJS8uRL4196K77efNBijmfM2ssK2gIfClujgAsAf-avn_UXiT-q_kWcZcAo6hQWBYCeIWRxmy2PSMEGOF0GqnkDiV1CaOFGGUArMK3FyyOzo7SmWetEcqHGUxErZSSHTfg",
-			"sc": "https://lh3.googleusercontent.com/38u216QKdkRKf8h15lLOSm-t4rcyxMz2koj2Ub_h7v9jbzZZL8uMPszpLAJPKIVOr1bJ-1KyFG7mjhdcmGShgsCNev6ziwS_2nmntbIKv6A1KkFFxRFnSRQ8CnbZzpSDYCp3qW3u3w",
-			"mat": "https://lh3.googleusercontent.com/g4K1xlnojbDdYla_Z1WiJ_vSQiods2idc6m9G-U-oizB8_DcyTPD6x9T3C10-v3fyIckE4YwqpjwvVkKeVqqFZ1dYsrhDp7BlmlHqaV-sJFmHJPb4S-v9GeiGDmjuogek_0gnTjTSQ",
-			"sst": "https://lh3.googleusercontent.com/DA59qzCElOgfiUxJ450e2TwgC31KrlsBIOTJJx6V8-QUV-fltYEktSyEH53fwaPsWKVcGjX4N4aQpCBklzoJf2HHgKYwUiTw_uDqPwmcNeUoyMhFAHyEZGmgZ6FAS5TwjTkh2kFI3w"
+			"sc":{
+                "Img":  "https://lh3.googleusercontent.com/38u216QKdkRKf8h15lLOSm-t4rcyxMz2koj2Ub_h7v9jbzZZL8uMPszpLAJPKIVOr1bJ-1KyFG7mjhdcmGShgsCNev6ziwS_2nmntbIKv6A1KkFFxRFnSRQ8CnbZzpSDYCp3qW3u3w",
+                "About": "StarLight Academy is a premiere science institute which believes in quality education for all. From basic structure of cell to astonishing diversity among living organisms, from ray of light to production of electricity, from structure of carbon compounds to mole concepts, we cover each topic in the most interactive way possible.<br/>Chapter-wise assignments, regular tests, periodic PTMs are our fortay.<br/><br/>Study smarter. Shine brighter. "
+            },
+			"mat":{
+                "Img":  "https://lh3.googleusercontent.com/g4K1xlnojbDdYla_Z1WiJ_vSQiods2idc6m9G-U-oizB8_DcyTPD6x9T3C10-v3fyIckE4YwqpjwvVkKeVqqFZ1dYsrhDp7BlmlHqaV-sJFmHJPb4S-v9GeiGDmjuogek_0gnTjTSQ",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
 		}
 	},
 
 	"eleven_twelve":  {
 		"head": "For Budding Scientists (XIth/XIIth)",
-		"course_list": ["Physics", "Chemistry", "Biology", "Mathematics", "C++/Python", "IP"],
-		"keys": ["ph", "ch", "bi", "mat", "cp", "ip"],
+		"course_list": ["Physics", "Chemistry", "Biology", "Mathematics"],
+		"keys": ["ph", "ch", "bi", "mat"],
 		"details": {
-			"ph": "https://lh3.googleusercontent.com/p1VfsnCh6jyPsoNHMI2X-PdVFY36-g5KCLvAHF2LvsoPrecih2HX65caa89fwYkniJVso0C01d3Tam6j1bZT85MhI_E3SElV-DTYQHmfR6oBy0JmI70zxAOogMyoBiHFZXGqp1yyKw",
-			"ch": "https://lh3.googleusercontent.com/Bhit8KamL27x__-iIJl2taz-sO64I9TUlTrEBL0eN6QRwhVo-d4mEAw2gh5jufkpIWdtL1w8rzmkzNch6pWd-yFVsh4N9N6dGfnSykipHOlF-9hPphzTro37KOph7m18mJ2fy92KGg",
-			"bi": "https://lh3.googleusercontent.com/KIT9VyQObsBDT37ocgfxqI9GBi00WCZkEz4dPgq3_eppOO4COru86YnL93SHkYBUdcDfP1dN3_KEJ2HRqH0p26xKTW1vrCFxiXs6mpwV4NgZh-hNNr7iUujG__nledoddf7D28AOsA",
-			"mat": "https://lh3.googleusercontent.com/Ez1ITqI40y-eSLnLsbPzSXdeXgA6Aa1CP2BSlUKUaC0xy1Gw1vBUg_uU_12ohwnfNYMJTxrh-iB4r-VptDDCh2_cg-TQoE1wtsZ7wJXJXM4P7gW3_Yq8v89EJRmYWWuuOGlh3fAkqA",
-			"cp": "https://lh3.googleusercontent.com/rRxB4clVrZ2e_lUq42MOj02Azu5P_A7iUBAeFHopNh8tCU9ToMhRl4s30AP1yxjhcg5dkpawaUS58AxrF6SqVJAT55m0GCxMemuc7hhV72Kl89INtrDS4kCwdwlLXK5fVqdF87NUdQ",
-			"ip": "https://lh3.googleusercontent.com/q-xTbfT-fVuFYxEwUJqqoSAFm1e_Vn_xb51IWmBQ8EXiaBfY0yegZ2LH3WcwO7aHKyrxbLh5qdjml8M-_FMbr_CYbR-wWrZjmHbF-aeHwAaruKV7Q-o6lM1GqKcJiz7pUz3UZTBIhA"
+			"ph":{
+                "Img":  "https://lh3.googleusercontent.com/p1VfsnCh6jyPsoNHMI2X-PdVFY36-g5KCLvAHF2LvsoPrecih2HX65caa89fwYkniJVso0C01d3Tam6j1bZT85MhI_E3SElV-DTYQHmfR6oBy0JmI70zxAOogMyoBiHFZXGqp1yyKw",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+			"ch":{
+                "Img":  "https://lh3.googleusercontent.com/Bhit8KamL27x__-iIJl2taz-sO64I9TUlTrEBL0eN6QRwhVo-d4mEAw2gh5jufkpIWdtL1w8rzmkzNch6pWd-yFVsh4N9N6dGfnSykipHOlF-9hPphzTro37KOph7m18mJ2fy92KGg",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+			"bi":{
+                "Img":  "https://lh3.googleusercontent.com/KIT9VyQObsBDT37ocgfxqI9GBi00WCZkEz4dPgq3_eppOO4COru86YnL93SHkYBUdcDfP1dN3_KEJ2HRqH0p26xKTW1vrCFxiXs6mpwV4NgZh-hNNr7iUujG__nledoddf7D28AOsA",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+			"mat":{
+                "Img":  "https://lh3.googleusercontent.com/Ez1ITqI40y-eSLnLsbPzSXdeXgA6Aa1CP2BSlUKUaC0xy1Gw1vBUg_uU_12ohwnfNYMJTxrh-iB4r-VptDDCh2_cg-TQoE1wtsZ7wJXJXM4P7gW3_Yq8v89EJRmYWWuuOGlh3fAkqA",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
 		}
 	},
 
-	"cs_courses": {
-		"head": "For Computer Enthusiasts",
-		"course_list": ["Advanced C++", "Python Programming", "Java (Core/Advanced)", "Android Development", "Machine Learning", "Advanced Algorithms"],
-		"keys": ["acp", "py", "ja", "ad", "ml", "aa"],
-		"details": {
-			"acp": "https://lh3.googleusercontent.com/9BfGHZhvJy1Xhx3d0ZGgNo6yqX-c5_d3J28KtVwE-HujBsev2ILDv_LxOF7F4h6gFiRzBvwV0AAnlo63TVV7Wiy6aX8mL85Aunyf_9g8nY2ehvU5SuIu_zhjgzLVjhwFMkttKN2xTw",
-			"py": "https://lh3.googleusercontent.com/FjI6GviUcfz5oKstuiHPqargULsAyvlQ9zMkXwyuKuhddRVc3b0xy-Bt-OvKBj2ZRHoSgK0ZQrjkHRgCd4yMwwbNVJflDKnGCCpVKZ_DLqew5Zju8taztWbmDJEjeOtyyldE2bbkKg",
-			"ja": "https://lh3.googleusercontent.com/2t-9gohSOc8Loy8tw9MZ1LgpjMnO0YI-qukOqLnQcaEfmH2kXjE4T21cP74UbEMrBY38pFtDF_7OXIHovUYLL-7Z51wj4t4XlafwpwKJ6okce_oXhju31d7wb8Pn9otzEYCWw9nyhA",
-			"ad": "https://lh3.googleusercontent.com/v0y0inZX2erAvmJxQ_BBP7ANC9NRLxpP-mhVNGAfPreoeVnx2MrYWGtAg73KE7hSh8vasnMKuuPppeQawmDg61fiKI13NUADUjfjEjjRl05XM7jbY2ni0vxNIXlGcZL_E2D4Wmfx2Q",
-			"ml": "https://lh3.googleusercontent.com/4AI87aLVcLjCcNWK1_xfJWfC_-jWlvGYHvSm80gQGeEjFY0Rh0bpVAXLWfapqrOdbjmxC0wBTonl-PdHfhWiAzJYX0c3PRcLKF2GXp1KRMTZytelJT8CnfybnkTlPEqAhVzrnbQEdQ",
-			"aa": "https://lh3.googleusercontent.com/PhfW4A-W7DW0Qp3-wWN6wwUUwRX0vvbZzo31zXkU15yuWS-i5GU72WTwSba2dUjdVlLP2tF90EpH1NaUZQuYTyCE5bjcN_4LoyW-1s5cGKbn_-pmY3R_6wz_bMNRemIpeMw0m6-OZA"
-		}
-	}
+    "pg_courses": {
+        "head": "For Under and Post-Grads",
+        "course_list": ["Microbiology", "Immunology", "Biochemistry", "Biotechnology", "Molecular Biology", "Cell Biology"],
+        "keys": ["mi", "im", "bc", "bt", "mb", "cb"],
+        "details": {
+            "mi":{
+                "Img": "https://lh3.googleusercontent.com/rwYgRFyc-LSXiX-YEmHZ7OP8FdXq-e89mk1opajr4XdjRZRK11Q9PISCHqOPGjy1KHpRyQb0lG24m_Dj4zcC-rWxP6wIunjOlydKqC8-6uG7rwrhkBPrfaDhq0QGiE_YkdH3iFSnQQ",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "im":{
+                "Img": "https://lh3.googleusercontent.com/iwLfFPPBo9DLZyupXY_zJrPeq3Pu2fmzTOQcaxhqMvJk8BBYWt6dGuz74Y-7IvP4LWfVEr4-AGVgXOBhO0qYCN4pvGU4AHXReoEtc6O3ep3IlEkfLDPKp9uE6rW1J5XA4Wk4CA6Rtw",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "bc":{
+                "Img": "https://lh3.googleusercontent.com/ODU0uUUQ5WAj6V5jG_P4AsE-2w4AYJlCyuhdQgXhVIfuQrpxIn44tiaSpSyhueZjFy0GBOeoTRH7gD0nVy-pdZH3fAIkI9C-nvnhOVMnRDALuLcZMRjv9UYo9o5e_soqfSLK5FOTtA",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "bt":{
+                "Img":  "https://lh3.googleusercontent.com/2c8e1c5eNujDyNugCzqCld18H8PRfCzSPd5uRJCyJ1Mp_zgn-o3nZJfv_62ld8f-WLXwsVWTErhIU9z9P9E5BwGwBOQlDegbW52voKFd0F9hCeVy7zXUw-WBrfOH4UHJQNFl5Rwl0g",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "mb":{
+                "Img":  "https://lh3.googleusercontent.com/z-Lk6KRSM42Y-ejuXmZ5gKZ57PDWrCLH4IQV8cKrlzsWC8Kr85EagopScJ294JO6S1RqVeosRGU5YSJ8Jdz9FmdIHSVGJCwKrSWF9MNiiBu8SgOs47_OQ6shl9zGkCsLleX_36mddg",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "cb":{
+                "Img":  "https://lh3.googleusercontent.com/ZNzsMSxyKvtrog-qJCKFa3gn5CbBhnCFD9mujebM2-9pjAMdulYH8VGq8z7q3TKiIbyvdmj3aiIlFDOd3bcQsFgJlZpTW3UAztHWBXuA2Icq4cx71Ef2yf2L-eOcyslpcoPNGFQZWw",
+                "About": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        }
+    }
 }
