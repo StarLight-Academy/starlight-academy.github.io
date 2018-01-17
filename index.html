@@ -38,6 +38,55 @@
         </div>
     </header>
     <div class="bg-gradient"></div>
+    <div class="modal fade" tabindex="-1" id="contactModal" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modalLabel">Contact Form</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert"><h3>Thanks for filling form! We will contact you soon.  :)<h3></div>
+                    <form id="contactForm">
+                        <p>
+                        <label>Name</label>
+                        <input type="text" name="name" id="name" required>
+                        </p>
+                        <p>
+                        <label>Course</label>
+                        <select name="course", id=course>
+                            <option value="None">None</option>
+                            <option value="Maths (9th/10th)">Mathematics (9th/10th)</option>
+                            <option value="Science (9th/10th)">Science (9th/10th)</option>
+                            <option value="Biology (11th/12th)">Biology (11th/12th)</option>
+                            <option value="Physics (11th/12th)">Physics (11th/12th)</option>
+                            <option value="Chemistry (11th/12th)">Chemistry (11th/12th)</option>
+                            <option value="Maths (11th/12th)">Mathematics (11th/12th)</option>
+                        </select>
+                        <!--<input type="text" name="course" id="course">-->
+                        </p>
+                        <p>
+                        <label>Email Address</label>
+                        <input type="email" name="email" id="email" required>
+                        </p>
+                        <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone" id="phone">
+                        </p>
+                        <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" row="5" id="message" required></textarea>
+                        </p>
+                        <p class="full">
+                        <button type="button submit">Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="carousel slide col-md-offset-2 col-md-8 col-xs-12" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
@@ -45,13 +94,13 @@
                     <img class="d-block img-responsive" href="#course1" src="https://lh3.googleusercontent.com/kZiYgOjceW6CEfwBcInFH-B0jemQy2AVsdLA9CBmR_wXLqYMR_LCbnDQL1_IybMBlJDnf8tetwmmJxXK9ErWfjZV1PXWlHga6DQcsZVOXtBzeaQ6frnttAVGtjzs1HUTlnyTOOODMGylwwqxgn4zBJsmSfTdyeU48LGuTPKsPA8UoFNXnmS4TntdIuQW1ConthjkqShq6_E0ePCPrRTtJtEC-I8Q8SUYk0zRGoP_JjFMw7ltEzeqvu2cCsSHdn-k1i4ld86i7BB2kURGgMwGsTi8aaTKAfPn0F9p1TNxoZ8XScCspRsXqavtFDTcpuD0zVqpNU9ttrQ-zLgucm7GgdDBCTxak1SIU9hNJsPNb7KAaqRKwsYmkqUWizLt6sI79JbeYNgTijcz5Lj-kdCv_lDNfwIAmqoIpuvkeKeBsT4j1POFTNPpzsaZHUydrltlGZvDB2YQ8CqvaE3935paujgi7Y2EIK6FAgSyUyrawx5jnV0jyWFaxdrk09pLnVDUV8X7taoy00NjQPF2xvmyU0oMBpmwc6epqsbEPtcVlGQY0x-S7uv6NfOnYWQ1fpn3ZsiivPlAe7kG9LxzWHZDnB9P58-gkI4OkJ7XeFdhdw=w1417-h945-no" alt="First Slide"/>
                 </div>
                 <div class="item">
-                    <img class="d-block img-responsive" href="#course2" src="https://lh3.googleusercontent.com/1ZUsqkzwANPaJrWzc38GAgD7yu_AkWLTQbABAPHaBAK_PCwoM3ya8tWDPzYGEbPKGfsTgY_mt_Fr3QJU5yluvcYG7IvJ-Gts_S1G3H044Q6ESARG4sTxjnwl1XIOniO5-Yp4d97Oza9M-99ePFCOZaOWN00CFrEtlMnE_y-BgqF3OgJikr7uLumM6rydbZOWZvq7miCYdCw-wAj48MiZid6FiJQlqEn4Euraw66FPbLOEo7Z47Xu8UIUqkST1oQFjBAfb1KBulhI2gc6qIJCZtWnPF-1JhGlXS5suRSLzKgiNZ1iRxPdTkSOF86UwrShNWhRxYhSq4c51RR6FC6pa6KEwTIqvl2GTPTBoboKBv35T_XzT0RafFGxTsREVA6wh0PH2N-UraTlmlwgZCgb_73BaDw8Q6LR4RcAQr0zIfPjwmzCl5_pw06GSZ7-cF1TD7haptybhqTrwOrHiNBsKSkkk08ZwG6yk8wB7M7WHEHnl2TjJJC6wVnar9r36AZCotcl6Mol064ObfvQj51FYJq1ErRG7_nQDwPSDmlkiwrTpoDwn4dY-xrkU_G1f4T-vfpd9NE2xoV7RF4HpWITMFFuIx6uhVmfmgv_7zE_0w=w1417-h945-no" alt="Second Slide"/>
+                    <img class="d-block img-responsive" href="#course2" src="https://lh3.googleusercontent.com/DW4LB9IRFxTx0SArNKJsjUQt9yjqiUaKPAwGwACQ3xeyL8VGmGRriyjPhhwbZDWQTbx64nuU2mO2F1AsJlbOQAllNht0h7_uuXzsdDEKq2Ae6EAaquK83T5Eil0ocuyLNXgoZEvGswCbEUFioI8TTO1SyqRCIvot51PvCz6-AXS84Q4MRpM_zkWIstq0DKzsLEwj7i-QqHOaJ-E5gje5Ti69EBkh6MN3Z5IsmEtwQSnO1VU3FcPnuYoMU3qZmGUOhnlcgwcRhh8irICHKh8hpQbB54sXKKch228JTIYqilM7mB32ATZCXvYKM9gMNWejVbKu9p8ANSp9zjnunI7Guazgg2N0yWTSQ4IypLkfwYdqMO5So5L4cQI2o5b_B28CySrYdJ--wKng00rWaeIH3NItNKPPWzW0VVnV5RdPo5kSJHkYjBvZjqNzySig4hhtXCfA16WN1i2DRO3Cn6UB6ar5AvX8isWzRQdhq3_HCcBOm58T_J2LKX3Id0SXwIig6Y8UPivBfHpsENraFkTny-no_DcbQ2AI4664_d97tkiloR6OckWXWfKByvxTZnzOpohh7oFE9FUmZsB7LvOy-5zOmkBdxrahY0_z48o=w1417-h945-no" alt="Second Slide"/>
                 </div>
                 <div class="item">
                     <img class="d-block img-responsive" href="#course2" src="https://lh3.googleusercontent.com/w8mGGg272_qFypv-fj1tVwwgaZ41FMhtpwb6QMOnTFCEpdXw2kx2zminrjC1imCUccQ0hMyt51lSr3L3vuab-Lp3qaRHF4dEGdTKF-3bmviX-qhIOBW4tn9COhnKp_1X1X7rW_atdxiwu3hDuKxW0p9TVFMjgyd0P19WStQCg8TaxeXC5EHD2VxeNTpI8JMuTvZKaV2w5uV7iI8AE-2iDYSTcIPpkiuzkkvuQd8j6ZCvNLsI91gNdGc_NH9U77t4J7VqzMS2LHC7lRnmLc8f5SSMKENkerhwznn-kSmXyyICcuLcZ2omY7QLwSAcCmhRLdTW9eZDmdfpNeTm2vyt1UBuNj2tFheio-PJLTjV8fBDA3-QThK-lk3nwqpR6N0VT8vX7xfectfHTUf79fz_Zu6csHOTFoyKw22jtHO9nIVjKaT1u7h0jtmzkZmX4vGgjSIqbvWEphSroXS36WMncUe8_EUp1cLAQMT3jI0hIiu4IgG8MZuH0lCu7Zfi6IejNPNeecNAsFr2naNYKYugIS7Q6slV6Y4e8cCdZuc8FQyHOe35QDO1DuCMe-ROATE8AnX9_wxvbHVYOHesNwzYzHWRLFcGnd21m1Fl7TL1Sg=w1417-h945-no" alt="Second Slide"/>
                 </div>
                 <div class="item">
-                    <img class="d-block img-responsive" href="#course2" src="https://lh3.googleusercontent.com/LBPXyxO8qGvqftlagwPH7ZPKrzf-80zdiX_pqJazlR8ZnzmABA_TN81XVwV3B1p9WPTxFUK5-pVQTt6R578HRARfHLpeYIVFcPVX5cH_im3z5-A0OW8VnAN5DZCXIOVyls7_jI7xBCRQIs4dE5XbYVjEu93TV-86PEf4fxYOCSZlo4uEpHAEVck_B4-caWpQ3FBvpF2oW7pHyyzql2wgsxCgDge9J7N_ukGfUahqNjbwODUqPPMMciQdf5UvGjpY0EwGtSS2Ogn4fXEMbpGkMgAq7-GvMPe9YnM_aaBoLD4z8ZgmvRXEh9Wu2Cc06rrPLRoNjDHv7FHDU095lyiQvt0Iufu3l9V3u6N0462aqwt7uBnja7s1_jYc1EMpCABmKu8k9jSmJqatQW2axabjd1LE10GL9i-L2Hw-bDztsG84FVT509qx9L8Y7f1UxMN0e9Jr5eGdAnJKTvLzS3YrqcifeIyR9YHFVCbjahho9xe_4cAZIg-32AYib2LcupOzSfgKYnhAod-G8qIHZqKGb5LTly6Fpx1CZ6PrRDp9P46eK1N1SCsSm6rjz7EvIYfXc6GjpbDuwlcn7We4NjrlFJ91ZzZ8S-vRQC1_0yin8g=w1417-h945-no" alt="Second Slide"/>
+                    <img class="d-block img-responsive" href="#course2" src="https://lh3.googleusercontent.com/lClh4JlXuRUZYTF6tLBwH8zU66Zpwoe3sMX5YT53N256WPK41lNh4kh0kwJoMtgzRLXyI1OsEX_UQ7bdwTwMzUTH2gaUANogcxNfqN4DTSiqG8KUDUsZWLn3wXDmMK4PT2qsIwnCoL6Q-Hbtr_xdGW1r5zj7ubybIZhuBUZsGPlB7rxnjdIrxLmfDVUBsxvb0DSXmaNvn45Ebewfjyj2LUt06tJ-BqJxIxSUcL9s4VWV_X_w6wThG3TAtAzjF1nRsCV5DdJwy_wWEXfETqUY34aZrKYuP9BWWQHIbJNAiVWr7RGvjNCZivKaHqL7EupH7--yDj1GXqx-Fzg0Z-ecR9-hxlI5xnjcTuJAeRIj4p0cj8G0FSaXXpwxa3PATdR_6S_6Fv8ZzzBbkSDYGs-4_kpAgNFjjptFRqTXE_lRyPZi5klcafq8JmDoYypGGj7rQFGoOHt8r-xt6yHD2y07qbXGDsK4YHcckDKnT4BDGJDf4hpY-k4NTTiwm-xt6k0DRlXEUjEtgIiiZFrQ_IUVhv3DiviwbCziPPyuUY5659MpzDPGBhdbv1opM3om_yyUbOcfIZE1Tq65jpV8XPbmHpb7_rQON4urW-pHJow=w1417-h945-no" alt="Second Slide"/>
                 </div>
                 <!--<div class="overlay"></div>-->
             </div>
@@ -60,7 +109,7 @@
     <div class="container-fluid">
         <div class="row">
             <h2 class="col-md-10 col-md-offset-1 title">Our Vision</h2>
-            <p class="col-md-10 col-md-offset-1 title-inner"><b>StarLight Academy</b> runs with the sole vision of delivering quality education to students from Senior Secondary Classes to Post-Graduation in various fields of science. From Academics to projects, from viva-voce to practicals, everything is covered by the faculty members at StarLight Academy. Besides education, we provide proper guidance and counselling to each of our students personally.</br><b>Everyone is Welcome in this Journey of Education.</b></p>
+            <p class="col-md-10 col-md-offset-1 title-inner"><b>StarLight Academy</b> runs with the sole vision of delivering quality education to students from Secondary Classes to Post-Graduation in various fields of science. From Academics to projects, from viva-voce to practicals, everything is covered by the faculty members at StarLight Academy. Besides education, we provide proper guidance and counselling to each of our students personally.</br><b>Everyone is Welcome in this Journey of Education.</b></p>
         </div>
         <section class="overview">
             <div class="row">
@@ -94,9 +143,11 @@
                 </div>
             </div>
         </section>
-        <div class="row contact">
-            <h2 class="col-md-4 col-md-offset-4 text-center">Contact Us</h2>
-            <p class="col-md-6 col-md-offset-4 text-center">We would <i class="fa fa-heart" aria-hidden="true"></i> to answer your queries.</p>
+        <div class="contact">
+			<div class="row">
+            <button class="col-xs-4 col-xs-offset-4 text-center button" id="contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button></div>
+			<div class = "row">
+            <p class="col-xs-4 col-xs-offset-4 text-center">We would <i class="fa fa-heart" aria-hidden="true"></i> to answer your queries.</p></div>
         </div>
         <footer class="row text-center">&copy; Copyright StarLight Academy</footer>
     </div>
@@ -109,5 +160,7 @@
             <a href="./faqs.html">FAQs</a>
         </nav>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
