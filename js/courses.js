@@ -95,12 +95,14 @@ $(document).ready(function() {
 
   $('#enquireBtn').on('click', function(event){
       document.querySelector('input[name="course"]').value = document.querySelector('#modalLabel').innerText;
+      document.querySelector('#course').readOnly = true;
       document.querySelector('#aboutDiv').style.display = 'none';
       document.querySelector('#enquireBtn').style.display = 'none';
       document.querySelector('#courseForm').style.display = 'block';
   });
 
   $('#courseModal').on('hide.bs.modal', function(){
+      document.querySelector('#course').readOnly = true;
       document.querySelector('#aboutDiv').style.display = 'block';
       document.querySelector('#enquireBtn').style.display = 'block';
       document.querySelector('#courseForm').style.display = 'none';
