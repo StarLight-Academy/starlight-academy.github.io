@@ -102,7 +102,7 @@ $(document).ready(function() {
   });
 
   $('#courseModal').on('hide.bs.modal', function(){
-      document.querySelector('#course').readOnly = true;
+      document.querySelector('#course').readOnly = false;
       document.querySelector('#aboutDiv').style.display = 'block';
       document.querySelector('#enquireBtn').style.display = 'block';
       document.querySelector('#courseForm').style.display = 'none';
