@@ -55,6 +55,39 @@
                     <div class="row">
                     <div id="aboutDiv" class="col-sm-10 col-sm-offset-1"></div>
                     </div>
+                    <div class="row">
+                        <p class="col-md-6 col-md-offset-3">
+                        <button type="button" id="enquireBtn">Enquire</button>
+                        </p>
+                    </div>
+                    <div id="courseForm">
+                        <div class="alert"><h3>Thanks for filling form! We will contact you soon.  :)<h3></div>
+                        <form id="contactForm">
+                            <p>
+                            <label>Name</label>
+                            <input type="text" name="name" id="name" required>
+                            </p>
+                            <p>
+                            <label>Course</label>
+                            <input type="text" name="course" id="course">
+                            </p>
+                            <p>
+                            <label>Email Address</label>
+                            <input type="email" name="email" id="email" required>
+                            </p>
+                            <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="phone" id="phone">
+                            </p>
+                            <p class="full">
+                            <label>Message</label>
+                            <textarea name="message" row="5" id="message" required></textarea>
+                            </p>
+                            <p class="full">
+                            <button type="button submit">Submit</button>
+                            </p>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,5 +112,7 @@
             <a href="./faqs.html">FAQs</a>
         </nav>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>

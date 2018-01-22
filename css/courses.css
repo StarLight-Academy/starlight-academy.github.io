@@ -6,3 +6,7 @@
 #imgDiv {
     padding-bottom: 10px;
 }
+
+#courseForm {
+    display: none;
+}

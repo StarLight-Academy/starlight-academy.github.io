@@ -293,7 +293,7 @@ p.overview-title-inner {
   grid-column: 1 / 3;
 }
 
-.modal-dialog form button, .modal-dialog form input, .modal-dialog form textarea, .modal-dialog select {
+.modal-dialog form input, .modal-dialog form textarea, .modal-dialog select {
   width: 100%;
   padding: 1em;
   border: 1px solid  rgba(246, 4, 4, 0.8);
@@ -305,7 +305,16 @@ p.overview-title-inner {
   text-transform: uppercase;
 }
 
-.modal-dialog form button:hover, .modal-dialog form button:focus {
+.modal-body button {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid  rgba(246, 4, 4, 0.8);
+    background:  rgba(235, 4, 4, 0.5);
+    border: 0;
+    text-transform: uppercase;
+}
+
+.modal-body button:hover, .modal-body button:focus {
   background:  rgba(255, 4, 4, 1);
   color: #fff;
   outline: 0;
