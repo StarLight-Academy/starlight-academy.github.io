@@ -5,7 +5,7 @@ div .student{
   padding-right: 0;
   background-color: rgba(44, 44, 42, 0.84);
   margin-top: 3%;
-  margin-bottom: 2%;
+  margin-bottom: 0.5%;
   transition: 0.5s;
   display: inline-block;
 }
@@ -15,7 +15,7 @@ div .student{
 }
 
 .student h3, p {
-    font-size: 0.9em;
+  font-size: 0.9em;
   color: rgba(227, 218, 109, 1);
 }
 
@@ -42,5 +42,9 @@ div .student{
 
     .student h3, p {
       font-size: 0.5em;
+    }
+
+    .student h3 {
+        margin: 2% 0 10% 0; 
     }
 }
