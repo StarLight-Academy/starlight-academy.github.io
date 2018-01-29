@@ -1,0 +1,53 @@
+div .student{
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, .4);
+  border-radius: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: rgba(44, 44, 42, 0.84);
+  margin-top: 3%;
+  margin-bottom: 2%;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.student img {
+  border-radius: 10px 10px 0 0;
+}
+
+.student h3, p {
+    font-size: 0.9em;
+  color: rgba(227, 218, 109, 1);
+}
+
+
+@media only screen and (max-width: 650px){
+
+    .student h3, p {
+      font-size: 0.7em;
+      font-weight: normal;
+    }
+
+    div .student {
+        border-radius: 5px;
+        box-shadow: None;
+    }
+
+    .student img {
+      border-radius: 5px 5px 0 0;
+    }
+}
+
+
+@media only screen and (max-width: 550px){
+
+    .student h3, p {
+      font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .student h3, p {
+      font-size: 0.01em;
+      font-weight: normal;
+    }
+}

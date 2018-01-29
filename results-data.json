@@ -1,0 +1,38 @@
+{
+    "names": ["Shivam Yadav", "Rayank Sehgal", "Pinki", "Nandini Nagpal", "Gagandeep Singh", "Charu Popli", "Ashmita"],
+    "Rayank Sehgal": {
+        "URL": "https://lh3.googleusercontent.com/hO8aOvpPYLX2P26FwiHY7wg6kdZQ2taQ3bMphlDnasgLV5e5mNwsj59MHIa0bKrYYpi_NbuAttavNFsE0gWZLKWbk5x_nUbhivlh_Hx6rqQyMXYziMK9W0afu2x88plcHonTpa4gJw",
+        "marks": 93,
+        "class": "12th"
+    },
+    "Charu Popli": {
+        "URL": "https://lh3.googleusercontent.com/ZT9L7yJyXTPAyiSn7GZKPrm5Yh8hxNlFtt1qHhsGVQqvUlr03bn3B03BbAwD5dXRG76-OHWbK0rRJpvcPkmq6D4nZ9-5qWPbrcqCYai5z6SgKnAsGhQzTgZVw9dp1DT6CoGeSBGF1A",
+        "marks": 90,
+        "class": "12th"
+    },
+    "Gagandeep Singh": {
+        "URL": "https://lh3.googleusercontent.com/8019cxM0YM7jW5b_tcvxX3N8jJuM6rIRi5jpZLSg54lHmtnW6fuPoESA1fb_5jnaTNca8yWoBv3h1R8VDeuworSKXBz1zZS5W7eD5SMuS2LdtK5hIV3nSS3xNHlvNnycURjEsQPpuw",
+        "marks": 89,
+        "class": "12th"
+    },
+    "Ashmita": {
+        "URL": "https://lh3.googleusercontent.com/hk8T9JEsSwMYvbDEERtQUFadOYDsnJFplZz8qdYZg3aQJcfKxqI0NPBSXRK_xFzu7L4Qkog5XryJQc_JW-xg9LA_ZZYHtFoJCsCQ4NoOTMJHnoupl68CeIcxjPsAkd1VvXWzX8pHbw",
+        "marks": 89,
+        "class": "12th"
+    },
+    "Shivam Yadav": {
+        "URL": "https://lh3.googleusercontent.com/Bk-O7yGEDor5AcqkXg6oodvoxy3OZxotUoYluqPFpnvVxfBqrWoZPTOnRAo8qyxKK7p8IELT6jnf4DcUlq7bNyR3uoq9sniBzsbrX3e41pNHvu8bkoort78eVya44TLSkl31gpfChA",
+        "marks": 96,
+        "class": "12th"
+    },
+    "Pinki": {
+        "URL": "https://lh3.googleusercontent.com/a0YEtmnNige41SpH4cUXyxmjGGuBlDagox1IL-wL9qDlgosKvFUKop_aFhCp2bzD-Y1IYCotsGWVYf0noIy9flp3tNj6LMQPh9M6cz9jhFfyFIie380PcS0SHT4Hm2RTIQ41SGdPdw",
+        "marks": 93,
+        "class": "12th"
+    },
+    "Nandini Nagpal": {
+        "URL": "https://lh3.googleusercontent.com/G4Hf682_65We23CJZD9ZLoGXTNPtCqn6N3Km3lJ6jufqhB67eB8KldORHUbC9obll0yNkHYMJMg3Qh-Z8dDAgINzE1PkH2tov-jQ57OEqy8GqQz_aY1rH3BCY2rxoiDI0XswWBSVKw",
+        "marks": 90,
+        "class": "12th"
+    }
+}
