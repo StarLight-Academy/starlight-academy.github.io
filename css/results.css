@@ -44,10 +44,3 @@ div .student{
       font-size: 0.5em;
     }
 }
-
-@media only screen and (max-width: 450px){
-    .student h3, p {
-      font-size: 0.1em;
-      font-weight: normal;
-    }
-}
