@@ -24,7 +24,7 @@ $(document).ready(function() {
          }
          str.push("<img src='" + json_obj[val].URL + "' class='img-responsive'>");
          str.push("<h3>" + val + "</h3>");
-         str.push("<p>Class " + json_obj[val].class + "<br/> " + json_obj[val].marks + " Percent</p>");
+         str.push("<p>Class " + json_obj[val].class + "<br/> " + json_obj[val].marks + "%</p>");
          str.push("</div>");
          if(index % 4 == 3)
             str.push("</div>")
