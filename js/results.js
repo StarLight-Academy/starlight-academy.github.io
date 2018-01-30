@@ -31,7 +31,7 @@ $(document).ready(function() {
             str.push("</div>")
      });
      $.each(json_obj.Places, function(index, val){
-         str2.push("<h4 class=col-xs-offset-2>"+val+"</h4>");
+         str2.push("<h4 class=col-xs-offset-1><b>&#9672;</b> "+val+"</h4>");
      });
     return [str.join(""), str2.join("")];
    }

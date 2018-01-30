@@ -45,6 +45,10 @@ div .student{
     }
 
     .student h3 {
-        margin: 2% 0 10% 0; 
+        margin: 2% 0 10% 0;
+    }
+
+    h4 {
+        font-size: 1.2em;
     }
 }
