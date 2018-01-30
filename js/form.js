@@ -37,6 +37,10 @@ function submitForm(e){
 
     // Clear form
     document.getElementById('contactForm').reset();
+
+	if(document.getElementById('modalLabel') != null){
+		document.querySelector('input[name="course"]').value = document.querySelector('#modalLabel').innerText;
+	}
 }
 
 // to get form values
