@@ -14,7 +14,8 @@ $(document).ready(function() {
    }
 
    function convertToHtml(json_obj){
-      var str = []
+      var str = [];
+      var str2 = ["<div class='row'>"];
      $.each(json_obj.names, function(index, val){
          if(index % 4 == 0){
              str.push("<div class='row'>");
@@ -29,7 +30,10 @@ $(document).ready(function() {
          if(index % 4 == 3)
             str.push("</div>")
      });
-    return str.join("");
+     $.each(json_obj.Places, function(index, val){
+         str2.push("<h4 class=col-xs-offset-2>"+val+"</h4>");
+     });
+    return [str.join(""), str2.join("")];
    }
 
    function init() {
@@ -37,7 +41,9 @@ $(document).ready(function() {
     // Parse JSON string into object
       var actual_JSON = JSON.parse(response);
 
-      $('#resultsDiv').html(convertToHtml(actual_JSON));
+      html_list = convertToHtml(actual_JSON)
+      $('#resultsDiv').html(html_list[0]);
+      $('#placesDiv').html(html_list[1]);
    });
   }
 
