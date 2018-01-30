@@ -26,6 +26,7 @@ $(document).ready(function() {
       });
     }else{
       $.each(json_obj.course_list, function(index, val){
+          console.log(val);
         switch (index) {
           case 1:
           case 5:
@@ -42,6 +43,7 @@ $(document).ready(function() {
 
             break;
           case 3:
+          case 6:
             str.push("<div class='col-md-2 col-xs-4 col-xs-offset-2 col-md-offset-1 course' id='contactbtn' data-toggle='modal' data-target='#courseModal' data-key='"+ json_obj.keys[index] +"' data-head='" + head + "' data-title='" + val + "'><h3 class='course-title text-center'>" + val + "</h3><img src='" + json_obj.details[json_obj.keys[index]].Img +"' class='img-responsive'></div>");
 
             break;

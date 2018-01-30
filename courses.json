@@ -41,8 +41,8 @@
 
     "pg_courses": {
         "head": "For Under and Post-Grads",
-        "course_list": ["Microbiology", "Immunology", "Biochemistry", "Biotechnology", "Molecular Biology", "Cell Biology"],
-        "keys": ["mi", "im", "bc", "bt", "mb", "cb"],
+        "course_list": ["Microbiology", "Immunology", "Biochemistry", "Biotechnology", "Molecular Biology", "Cell Biology", "Deep Learning"],
+        "keys": ["mi", "im", "bc", "bt", "mb", "cb", "dl"],
         "details": {
             "mi":{
                 "Img": "https://lh3.googleusercontent.com/rwYgRFyc-LSXiX-YEmHZ7OP8FdXq-e89mk1opajr4XdjRZRK11Q9PISCHqOPGjy1KHpRyQb0lG24m_Dj4zcC-rWxP6wIunjOlydKqC8-6uG7rwrhkBPrfaDhq0QGiE_YkdH3iFSnQQ",
@@ -67,6 +67,10 @@
             "cb":{
                 "Img":  "https://lh3.googleusercontent.com/ZNzsMSxyKvtrog-qJCKFa3gn5CbBhnCFD9mujebM2-9pjAMdulYH8VGq8z7q3TKiIbyvdmj3aiIlFDOd3bcQsFgJlZpTW3UAztHWBXuA2Icq4cx71Ef2yf2L-eOcyslpcoPNGFQZWw",
                 "About": "Interested in knowing what happens in a cell? How are two cells connected in our body? How does the nucleus know where to be localised in a cell? What is the reason behind cell division? What are the different applications of karyotyping? If so, you just knocked the right door.<br/>StarLight has introduced <b>Certificate Course</b> in Cell Biology- the duration of which is two months. The course is followed by one month of research training wherein the students are made to <b>review a research paper</b>."
+            },
+            "dl":{
+                "Img": "https://lh3.googleusercontent.com/iPsfP5WF9YqrsYLGk45bB7B3YD3s83BVjext0qqrKvKNkrIXBjbxORj_YfHgG6tIP0YfblaaIkie8yVMycihnedt6hk09MIrhCtotDVIyNX2bPdIUhFmkyucfv4NNN_YMAWamXl-fw",
+                "About": "The power of AI is transforming the way we look and perceive things. StarLight Academy has introduced a sole project delivery offering for students and adults alike. This is a one-time project discussion and delivery system and is not a long term course.<br/><b>Walk in with your idea and leave with a world class product in your hands.</b>"
             }
         }
     }
