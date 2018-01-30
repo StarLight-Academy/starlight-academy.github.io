@@ -41,7 +41,7 @@ $(document).ready(function() {
     // Parse JSON string into object
       var actual_JSON = JSON.parse(response);
 
-      html_list = convertToHtml(actual_JSON)
+      html_list = convertToHtml(actual_JSON);
       $('#resultsDiv').html(html_list[0]);
       $('#placesDiv').html(html_list[1]);
    });
