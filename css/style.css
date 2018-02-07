@@ -192,11 +192,34 @@ p.title-inner{
     transition: 0.5s;
 }
 
+.workshop {
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, .4);
+    border-radius: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(44, 44, 42, 0.84);
+    //background-image: linear-gradient(0deg, rgba(44, 44, 42, 0.84),rgba(44, 44, 42, 0.84)),
+                    //url("../images/img1.jpg");
+    margin-top: 3%;
+    margin-bottom: 2%;
+    transition: 0.5s;
+}
+
 .course * {
     font-family: 'Play', sans-serif;
 }
 
+.workshop * {
+    font-family: 'Play', sans-serif;
+}
+
 div.course:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
+    transition: 0.5s;
+}
+
+div.workshop:hover {
     cursor: pointer;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
     transition: 0.5s;
@@ -216,7 +239,20 @@ div.course:hover {
     line-height: 140%;
 }
 
+.workshop-title {
+    padding-top: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgba(227, 218, 109, 1);
+    text-transform: uppercase;
+    line-height: 140%;
+}
+
 .course img {
+    border-radius: 0 0 20px 20px;
+}
+
+.workshop img {
     border-radius: 0 0 20px 20px;
 }
 
@@ -347,6 +383,9 @@ p.overview-title-inner {
     .course-title {
         font-size: 1.3em;
     }
+    .workshop-title {
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (max-width: 850px){
@@ -367,10 +406,17 @@ p.overview-title-inner {
     .course-title {
         font-size: 1em;
     }
+    .workshop-title {
+        font-size: 1em;
+    }
 }
 
 @media only screen and (max-width: 460px){
     .course-title {
+        font-size: 0.6em;
+    }
+
+    .workshop-title {
         font-size: 0.6em;
     }
 

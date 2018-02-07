@@ -18,6 +18,8 @@
 
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/json_loader.js"></script>
+    <script type="text/javascript" src="js/workshops.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
 <body>
@@ -35,7 +37,8 @@
             </div>
             <div class="header_navbar-logo col-md-3 col-md-offset-1">
                 <h1 class="logo"><a href="/">StarLight Academy</a></h1>
-            </div></div>
+            </div>
+        </div>
         </div>
     </header>
     <div class="bg-gradient-light"></div>
@@ -45,6 +48,27 @@
                 <h2 class="page-title">We Believe in Practicality...</h2>
             </div>
         </div>
+        <div class="modal fade" tabindex="-1" id="workshopModal" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="modalLabel">Workshop</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                        <div id="imgDiv" class="col-sm-10 col-sm-offset-1"></div>
+                        </div>
+                        <div class="row">
+                        <div id="aboutDiv" class="col-sm-10 col-sm-offset-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="workshops"></div>
     </div>
     <div class="header_navbar-toggle" id="header_navbar-toggle">
         <nav role="navigation">
