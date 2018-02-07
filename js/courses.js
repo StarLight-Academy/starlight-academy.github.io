@@ -1,17 +1,4 @@
 $(document).ready(function() {
-  function loadJSON(callback) {
-
-      var xobj = new XMLHttpRequest();
-      xobj.overrideMimeType("application/json");
-      xobj.open('GET', 'courses.json', true);
-      xobj.onreadystatechange = function () {
-            if (xobj.readyState == 4 && xobj.status == "200") {
-              // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-              callback(xobj.responseText);
-            }
-      };
-      xobj.send(null);
-   }
 
    function convertToHtml(json_obj, choice, head){
      var str = ["<div class='row'><div class='col-md-8 col-md-offset-1'><h2>" + json_obj.head + "</h2></div></div>", "<div class='row'>"];
@@ -69,7 +56,7 @@ $(document).ready(function() {
       }
       //$('#eleven_twelve').html(convertToHtml(actual_JSON.eleven_twelve, 2));
       //$('#pg_courses').html(convertToHtml(actual_JSON.pg_courses, 2));
-   });
+  }, 'courses.json');
   }
 
   init();
@@ -91,7 +78,7 @@ $(document).ready(function() {
          about = "<p>" + actual_JSON[head]["details"][key].About + "</p>"
          modal.find('#imgDiv').html(img);
          modal.find('#aboutDiv').html(about);
-    });
+    }, 'courses.json');
 
   });
 

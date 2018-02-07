@@ -1,17 +1,4 @@
 $(document).ready(function() {
-  function loadJSON(callback) {
-
-      var xobj = new XMLHttpRequest();
-      xobj.overrideMimeType("application/json");
-      xobj.open('GET', 'results-data.json', true);
-      xobj.onreadystatechange = function () {
-            if (xobj.readyState == 4 && xobj.status == "200") {
-              // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-              callback(xobj.responseText);
-            }
-      };
-      xobj.send(null);
-   }
 
    function convertToHtml(json_obj){
       var str = [];
@@ -44,7 +31,7 @@ $(document).ready(function() {
       html_list = convertToHtml(actual_JSON);
       $('#resultsDiv').html(html_list[0]);
       $('#placesDiv').html(html_list[1]);
-   });
+  }, 'results-data.json');
   }
 
   init();
