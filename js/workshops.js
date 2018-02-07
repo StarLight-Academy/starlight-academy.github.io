@@ -4,9 +4,9 @@ $(document).ready(function() {
       var str = ["<div class='row'>"];
      $.each(json_obj.title, function(index, val){
          if(index % 3 == 0){
-             str.push("<div class='col-xs-4 col-xs-offset-1 col-md-2 workshop' data-toggle='modal' data-target='#workshopModal' data-key='"+ val +"' data-head='" + head + "' data-title='" + val + "'>");
+             str.push("<div class='col-xs-4 col-xs-offset-1 col-md-2 workshop' data-toggle='modal' data-target='#workshopModal' data-key=\""+ val +"\" data-head=\"" + head + "\" data-title=\"" + val + "\">");
          }else{
-             str.push("<div class='col-xs-4 col-xs-offset-1 col-md-offset-2 col-md-2 workshop' data-toggle='modal' data-target='#workshopModal' data-key='"+ val +"' data-head='" + head + "' data-title='" + val + "'>");
+             str.push("<div class='col-xs-4 col-xs-offset-1 col-md-offset-2 col-md-2 workshop' data-toggle='modal' data-target='#workshopModal' data-key=\""+ val +"\" data-head=\"" + head + "\" data-title=\"" + val + "\">");
          }
          str.push("<h3 class='workshop-title text-center'>" + val + '</h3>');
          str.push("<img src='" + json_obj[val].Img + "' class='img-responsive'>");
