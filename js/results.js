@@ -1,22 +1,20 @@
 $(document).ready(function() {
 
    function convertToHtml(json_obj){
-      var str = [];
+      var str = ["<div class='col-xs-10 col-xs-offset-1 table-responsive'>",
+                 "<table class='table table-hover' style='font-size:20px'>",
+                 "<thead class='thead-dar'>",
+                 "<tr><th scopr='col' class='text-center'>#</th><th scopr='col' class='text-center'>Name</th><th scopr='col' class='text-center'>Marks</th></tr>",
+                 "</thead>"];
       var str2 = ["<div class='row'>"];
-     $.each(json_obj.names, function(index, val){
-         if(index % 4 == 0){
-             str.push("<div class='row'>");
-             str.push("<div class='col-xs-1 col-xs-offset-1 text-center student'>");
-         }else{
-             str.push("<div class='col-xs-1 col-xs-offset-2 text-center student'>");
-         }
-         str.push("<img src='" + json_obj[val].URL + "' class='img-responsive'>");
-         str.push("<h3>" + val + "</h3>");
-         str.push("<p>Class " + json_obj[val].class + "<br/> " + json_obj[val].marks + "%</p>");
-         str.push("</div>");
-         if(index % 4 == 3)
-            str.push("</div>")
+     $.each(json_obj.results, function(index, val){
+         str.push('<tr>');
+         str.push('<td class="text-center">' + (index+1) + '</td>');
+         str.push('<td class="text-center">' + val.name + '</td>');
+         str.push('<td class="text-center">' + val.marks + '</td>');
+         str.push('</tr>')
      });
+     str.push('</table></div>')
      $.each(json_obj.Places, function(index, val){
          str2.push("<h4 class=col-xs-offset-1><b>&#9672;</b> "+val+"</h4>");
      });
