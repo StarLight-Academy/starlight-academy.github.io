@@ -4,7 +4,7 @@ $(document).ready(function() {
       var str = ["<div class='col-xs-10 col-xs-offset-1 table-responsive'>",
                  "<table class='table table-hover' style='font-size:20px'>",
                  "<thead class='thead-dar'>",
-                 "<tr><th scopr='col' class='text-center'>#</th><th scopr='col' class='text-center'>Name</th><th scopr='col' class='text-center'>Marks</th></tr>",
+                 "<tr><th scopr='col' class='text-center'>#</th><th scopr='col' class='text-center'>Name</th><th scopr='col' class='text-center'>CBSE Marks</th></tr>",
                  "</thead>"];
       var str2 = ["<div class='row'>"];
      $.each(json_obj.results, function(index, val){
